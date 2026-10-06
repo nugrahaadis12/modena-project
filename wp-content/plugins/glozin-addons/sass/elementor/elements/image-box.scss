@@ -1,0 +1,20 @@
+.glozin-image-box--layout-2 {
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.glozin-image-box--layout-2 {
+		display: flex;
+		align-items: center;
+
+		.glozin-image-box__image {
+			width: 100%;
+			
+			a {
+				display: block;
+				-webkit-clip-path: circle(63.5% at 30% 50%);
+        		clip-path: circle(63.5% at 30% 50%);
+			}
+		}
+	}
+}

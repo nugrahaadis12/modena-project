@@ -1,0 +1,185 @@
+=== Glozin ===
+
+Contributors: UIXThemes
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+Requires at least: 4.0
+Tested up to: 6.3.1
+Stable tag: 2.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
+
+Glozin is a fully responsive Premium WordPress Theme with a pixel perfect design and extensive functionality.
+
+== Installation ==
+
+1. In your admin panel, go to Appearance > Themes and click the Add New button.
+2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
+3. Click Activate to use your new theme right away.
+
+
+Version 2.0.1
+
+- New: Default order option for attribute filters, keeping the term order set in Products > Attributes
+- Updated: Cart, mini-cart and grouped add-to-cart templates for WooCommerce 11.0.0
+- Fixed: Frequently Bought Together not adding backorder/pre-order variations to the cart
+- Fixed: Product short description not running through the woocommerce_short_description filter
+
+Version 2.0.0
+
+- New: Added Lingerie demo
+- New: Added Medicine demo
+- New: Added Dispensary demo
+- New: Added Bag Elegance demo
+- Updated: Full compatibility with WooCommerce 10.9.3
+- Fixed: Tax-included note in the cart totals now displays on its own line
+- Fixed: Search modal product results now display full width
+- Fixed: Page header not updating after applying product filter (including when Product Archive Builder is enabled)
+- Fixed: Free shipping progress bar excluded tax on tax-inclusive stores, so it kept prompting for more when the cart already qualified for free shipping
+
+Version 1.9.1
+
+- Updated: Full compatibility with WooCommerce 10.8.0
+- Fixed: Variation Compare swatches not rendering for products with CJK/non-Latin term values
+
+Version 1.9.0
+
+- New: Added Swimwear demo
+- New: Added Garden demo
+- Fixed: Variation Images Gallery now loads the default variation gallery on initial product page load
+- Fixed: Swiper carousel locked on mobile when Slides Per View (Auto) is enabled
+- Fixed: Removed forced text transformation from campaign bar slides on mobile
+- Fixed: Removed forced text capitalization from WooCommerce badges
+
+Version 1.8.0
+
+- New: Added Svelta Apparel demo
+- New: Added Plants demo
+- New: Added unit of measurement selection for product variations
+- New: Added options to change SVG icons for account and wishlist
+- New: Dynamic Pricing Discounts available in the [Glozin] Product Showcase widget
+- New: Video support in the [Glozin] Slides widget
+- New: Added option to hide cart note, discount, and estimate in the mini cart
+- New: Added option to display review count on the product card
+- New: Added option to open the cart page when clicking the cart icon in the header
+- New: Added option to display the categories menu on click or hover
+- New: Support for adding and removing coupons directly in the mini cart
+- Fixed: Mini cart not working on Firefox mobile
+- Fixed: Mega menu hover behavior issue
+- Fixed: Product prices still visible with catalog mode enabled
+- Fixed: Product filter sometimes not working with the product archive builder
+- Fixed: Related products occasionally displayed as a list instead of grid
+- Fixed: Product video not looping on single product page
+- Fixed: Product image lightbox did not display on mobile devices
+
+
+Version 1.7.0
+
+- New: Added Loftora Living demo
+- New: Added Fresh Basket demo
+- New: Added option to display primary product attribute on simple product cards (https://prnt.sc/U_6Fx6E4eKE8)
+- New: Added options to hide product wishlist and compare buttons on single product pages
+- New: Added option to disable automatic selection of free shipping method on checkout page
+- New: Compatible with https://wordpress.org/plugins/woocommerce-multilingual/ 
+- Updated: Added shortcode support in the Description field of "Customizer > Single Product > Shipping and promotions info"
+- Updated: Added password validation support to the popup Register form
+- Updated: Enhanced security for the product bundle widget during add-to-cart process
+- Fixed: Glozin Split Hero Slider not functioning correctly in loop mode
+- Fixed: Countdown timer not working in certain scenarios
+- Fixed: Recent Sales Count not working correctly with random display mode
+- Fixed: Theme Builder compatibility issue with WPML plugin
+- Fixed: Issue where the product filter could not filter by numeric values
+
+Version 1.6.2
+
+- Updated: Compatible with WordPress 6.9.0
+- Fixed: AJAX search not working
+- Fixed: Mobile menu not working in some cases
+
+Version 1.6.1
+
+- Fixed: Issue with the shop page display
+
+Version 1.6.0
+
+- New: Added Sari Couture demo
+- New: Added Campster demo
+- New: Added Coffee demo
+- New: Add "Add to Cart" button for Shoppable Images Carousel
+- Fixed: Review stars still displayed on sticky add to cart when review feature is disabled
+- Fixed: Unable to add HTML in the Custom HTML item of the mega menu
+- Fixed: Some bugs about CSS
+
+Version 1.5.1
+
+- Updated: Full compatibility with WooCommerce 10.3.0
+
+Version 1.5.0
+
+- New: Added Footwear demo
+- New: Added Electro Pulse demo
+- New: Added option to hide video controls on single product video 
+- New: Added Dynamic Pricing Discounts feature
+- New: Added options to include/exclude specific categories in product filter widget
+- New: Improved product filter widget item ordering functionality
+- Fixed: Removed the header mobile in the coming soon mode
+- Fixed: Video duplication issue in single product page
+- Fixed: Product variation image not updating correctly on single product page
+
+Version 1.4.1
+
+- New: Added Variation Image by Attribute feature
+- Updated: Full compatibility with WooCommerce 10.2.0
+- Fixed: Some bugs about CSS
+
+Version 1.4.0
+
+- New: Added Celeste Charm demo
+- New: Support editing Shop Builder with Elementor
+- New: Added Custom HTML option for the topbar and header mobile
+- New: Added customizable countdown text options for mini cart, cart page and checkout page in the Checkout Countdown feature
+- New: Added new option to show empty brand, attributes in the Product Filters widget
+- Update: Added the Special Offers to Glozin library 
+- Fixed: Don't show help text in the theme features
+- Fixed: Removed "Have an account?" text for logged in users on cart page
+- Fixed: The Dual Color feature wasn't working correctly with colors that improperly formatted color slug
+- Fixed: Product thumbnail display on mobile devices for single product pages
+- Fixed: Display of date added information on product wishlist page
+- Fixed: Checkout Countdown feature not working on initial product add to cart
+- Fixed: Some bugs about CSS
+
+Version 1.3.0
+
+- New: Added Underwear demo
+- New: Added Socks demo 
+- Enhanced: Location-based free shipping bar
+- Fixed: TikTok Carousel on mobile devices
+- Fixed: Mini cart countdown sync issues
+
+Version 1.2.0
+
+- New: Added Wigs demo
+- New: Added Kids Toys demo
+- New: Added configurable options for "Buy Now" and "Add to Cart" buttons in sticky cart display
+- New: Added Filter navigation item in Navigation Bar
+- New: Sync variation selection between main product form and sticky add to cart form
+- New: Compatible with Dokan plugin
+- New: Compatible with WCFM plugin
+- Updated: Full compatibility with WooCommerce 10.1.0
+
+Version 1.1.0
+
+- New: Added Tiny Outfits demo
+- New: Added Healthy Haven demo
+- New: Added Paw Paradise demo
+- New: Added Echelon Watches demo
+- New: Single Product Builder with Elementor - Design custom product pages
+- New: 404 Page Builder with Elementor - Craft beautiful error pages
+- Updated: Compatible with Nextend Social Login and Register plugin
+- Updated: Full compatibility with WooCommerce 10.0.4
+
+Version 1.0.0
+
+* Initial release

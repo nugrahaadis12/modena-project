@@ -1,0 +1,105 @@
+// Header v17 
+
+.header-v17 {
+    .header-icon {
+        .header-icon-counter {
+            bottom: 3px;
+            left: 13px;
+            width: 21px;
+            height: 21px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .ec-shopping-bag {
+            position: relative;
+            left: .5px;
+        }
+    }
+
+    .top-bar-nav-left .elementor-icon-list-item:last-child .elementor-icon-list-icon svg {
+        width: 13px;
+        height: 13px;
+    }
+
+    .header-action-btn {
+        .elementor-icon-list-item:first-child .elementor-icon-list-icon svg {
+            width: 17px;
+        }
+    }
+
+    .icon-list {
+        li:first-child {
+            svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+
+    .mobile-nav {
+        .navbar-toggler {
+            padding-left: 0;
+        }
+    }
+
+    .header-icon__cart {
+        .cart-items-total-price {
+            display: none;
+        }
+    }
+
+    .primary-nav {
+        .dropdown-toggle::after {
+            display: block;
+            font-size: 13px;
+            margin-left: 8px;
+        }
+
+        .mas-elementor-nav-menu {
+            position: static;
+
+            >.menu-item:first-child {
+                > .dropdown-toggle {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .yamm-fw {
+                .dropdown-menu {
+                    width: 1200px;
+                }
+            }
+            .yamm-sm-fw.active.dropdown:hover .dropdown-toggle[data-hover=dropdown]+.dropdown-menu {
+                transform: translate(calc(100% - 353px), 15px) !important;
+            }
+        }
+
+        @media (min-width: 1480px) {
+            .yamm-fw {
+                > .dropdown-menu {
+                    width: 1400px;
+
+                    .e-con>.e-con-inner {
+                        max-width: 1400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+body:not(.elementor-editor-active) {
+    .header-v17 {
+        .desktop-header {
+            position: absolute;
+            z-index: 2;
+        }
+    }
+}
+
+.electro-dark .header-v17 .desktop-header > div > div:first-child {
+    border-color:#2F3336;
+}

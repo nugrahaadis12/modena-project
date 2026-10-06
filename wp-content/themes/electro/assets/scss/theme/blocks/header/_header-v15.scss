@@ -1,0 +1,68 @@
+// Header v15
+
+.header-v15 {
+    .header-icon__cart {
+        .ec-shopping-bag {
+            margin-right: 15px;
+            font-size: 23px;
+            margin-top: 1px;
+        }
+
+        &.header-icon .header-icon-counter {
+            left: 13px;
+            bottom: 3px;
+            font-size:12px;
+        }
+
+        .cart-items-total-price {
+            font-size: 15px;
+            font-weight: 600;
+            position: relative;
+            top: 2px;
+            right: -1px;
+        }
+    
+        .woocommerce-Price-currencySymbol {
+            vertical-align: top;
+            font-size: xx-small;
+            margin-right: 6px;
+            top: -3px;
+            position: relative;
+            right: -1px;
+        }
+    
+        .dropdown-menu-mini-cart {
+            right:0 !important;
+        }
+    }
+
+    .wc-search .search-field {
+        height:46px;
+    } 
+
+    .header-action-btn .elementor-icon-list-item:first-child .elementor-icon-list-icon svg {
+        width: 17px;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1479px) {
+	.header-v14>.e-con>.e-con-inner,
+	.header-v15.e-con>.e-con-inner{
+		max-width:1200px;
+	}
+	
+	.header-v15.e-con>.e-con-inner {
+		padding-bottom:0;
+	}
+	
+	.header-v15 .el-cat-nav .elementor-icon-box-title a{
+		display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+	}
+	
+	.header-v15 .el-cat-nav .elementor-icon-box-wrapper {
+		max-width: 110px;
+	}
+}

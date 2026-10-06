@@ -1,0 +1,85 @@
+.glozin-lookbook-products {
+    --col-width: calc(50% - 10px);
+    --col-gap: 20px;
+
+    gap: var(--col-gap);
+}
+
+.glozin-lookbook-products__thumbnail {
+    --gz-image-rounded: 0px;
+}
+
+.glozin-lookbook-products__hotspot {
+    .gz-button {
+        --gz-button-width: 30px;
+        --gz-button-height: 30px;
+        --gz-button-font-size: 10px;
+    }
+}
+
+.glozin-lookbook-products__summary {
+    background-color: #f6f6f6;
+}
+
+@media (max-width: 767px) {
+    .glozin-lookbook-products__products {
+
+        &.product--horizontal {
+            
+            .product-inner {
+                display: flex;
+                align-items: center;
+                border: 1px solid #e5e1d8;
+                border-radius: 15px;
+                overflow: hidden;
+            }
+
+            .product-thumbnail {
+                position: unset;
+                flex-shrink: 0;
+                width: 78px;
+            }
+
+            .woocommerce-badges,
+            .product-featured-icons--second {
+                display: none !important;
+            }
+
+            .product-featured-icons--primary {
+
+                > *:not(.product-loop-button-atc) {
+                    display: none !important;
+                }
+
+                .product-loop-button-atc {
+                    --gz-button-bg-color: var(--gz-color-primary);
+                    --gz-button-color: var(--gz-text-color-on-primary);
+                    --gz-button-bg-color-hover: var(--gz-color-primary);
+                    --gz-button-color-hover: var(--gz-text-color-on-primary);
+                }
+            }
+
+            .product-summary {
+                margin-top: 0;
+                text-align: unset;
+                align-items: unset;
+                padding-inline: clamp(1rem,2vw,2rem);
+                margin-inline-end: 35px;
+            }
+
+            ul.products li.product {
+                .price {
+                    justify-content: unset;
+                }
+            }
+        }
+    }
+
+    .swiper-reveal-on-scroll--yes {
+        .glozin-lookbook-products__products {
+            .swiper {
+                overflow: visible !important;
+            }
+        }
+    }
+}
